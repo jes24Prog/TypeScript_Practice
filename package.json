@@ -1,0 +1,24 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "1. **Reverse a string**\r    - Write a function `reverse(s: string): string` that returns the input string reversed.\r    - _Example_: `reverse(\"hello\") → \"olleh\"`\r 2. **Check for palindrome**\r    - Write `isPalindrome(s: string): boolean` to determine if `s` reads the same backwards (ignore case and non-alphanumeric).\r    - _Example_: `isPalindrome(\"A man, a plan\") → true`\r 3. **Convert to camelCase**\r    - Write `toCamelCase(s: string): string` that transforms `\"hello world_test\"` into `\"helloWorldTest\"`.\r 4. **Count vowels & consonants**\r    - Write `countLetters(s: string): { vowels: number; consonants: number }`.\r    - _Example_: `countLetters(\"TypeScript!\") → { vowels: 3, consonants: 6 }`\r 5. **Find & replace substrings**\r    - Implement `replaceAll(s: string, find: string, replaceWith: string): string` without using built-in `replaceAll`.\r 6. **Validate email format**\r    - Write `isValidEmail(email: string): boolean` using a regular expression to enforce `local@domain.tld`.\r 7. **Run-length encoding**\r    - Implement `compress(s: string): string` that encodes `\"aaabbc\"` as `\"a3b2c1\"`.\r 8. **Anagram check**\r    - Write `areAnagrams(a: string, b: string): boolean` to test if two strings contain the same letters (ignore spaces & case).\r 9. **Extract numbers**\r    - Write `extractNumbers(s: string): number[]` that returns all sequences of digits in `s` as integers.\r    - _Example_: `extractNumbers(\"a1b23\") → [1, 23]`\r 10. **Reformat date strings**\r     - Create `reformatDate(date: string): string` converting `\"2025-07-04\"` to `\"07/04/2025\"`.\r 11. **Count word frequency**\r     - Write `wordFrequency(s: string): Record<string, number>` splitting on whitespace/punctuation.\r 12. **Capitalize every word**\r     - Implement `titleCase(s: string): string` so `\"hello world\"` becomes `\"Hello World\"`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jes24Prog/TypeScript_Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jes24Prog/TypeScript_Practice/issues"
+  },
+  "homepage": "https://github.com/jes24Prog/TypeScript_Practice#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
