@@ -7,7 +7,7 @@
    - _Example_: `reverse("hello") → "olleh"`
 2. **Check for palindrome**
    - Write `isPalindrome(s: string): boolean` to determine if `s` reads the same backwards (ignore case and non-alphanumeric).
-   - _Example_: `isPalindrome("A man, a plan") → true`
+   - _Example_: `isPalindrome("hello, olleh") → true`
 3. **Convert to camelCase**
    - Write `toCamelCase(s: string): string` that transforms `"hello world_test"` into `"helloWorldTest"`.
 4. **Count vowels & consonants**
