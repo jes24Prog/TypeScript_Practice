@@ -12,7 +12,7 @@
    - Write `toCamelCase(s: string): string` that transforms `"hello world_test"` into `"helloWorldTest"`.
 4. **Count vowels & consonants**
    - Write `countLetters(s: string): { vowels: number; consonants: number }`.
-   - _Example_: `countLetters("TypeScript!") → { vowels: 3, consonants: 6 }`
+   - _Example_: `countLetters("TypeScript!") → { vowels: 2, consonants: 6 }`
 5. **Find & replace substrings**
    - Implement `replaceAll(s: string, find: string, replaceWith: string): string` without using built-in `replaceAll`.
 6. **Validate email format**
